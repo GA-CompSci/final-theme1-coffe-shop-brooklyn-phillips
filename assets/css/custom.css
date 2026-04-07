@@ -1,0 +1,40 @@
+/* -- colors -- />
+D02121 - darkest red
+E52424 - red
+ED5E59 - peach
+F4978E - light pink
+F8AD9D - lighest pink
+FBC4AB - cream
+FDC198 - light beige
+FFBE85 - tan
+CC5F00 - orange
+
+/* -- fonts --/>
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
