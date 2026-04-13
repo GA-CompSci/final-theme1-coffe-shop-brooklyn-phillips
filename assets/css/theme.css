@@ -1310,6 +1310,7 @@ ul li {
 
 ul li ul, ul li ol {
   margin-top: 7px;
+  
 }
 
 ul[class*='list-'] {
@@ -1319,6 +1320,14 @@ ul[class*='list-'] {
 ul.list-unstyled li, ul.list-dash li {
   list-style-type: none;
 }
+li {font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+   
 
 ul.animate-links li a:hover {
   padding-left: 2px;
