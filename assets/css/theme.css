@@ -1322,12 +1322,54 @@ ul.list-unstyled li, ul.list-dash li {
 }
 li {font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 10px;
+  font-weight: 10;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
-   
+  
+.horizontal-box h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.horizontal-box li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+
+.horizontal-box {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px 20px;
+
+  background: rgba(244, 151, 142, 0.6);
+  backdrop-filter: blur(10px);
+border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 16px;
+  text-align: center;
+
+  box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+}
+.horizontal-box ul {
+  padding: 0;
+  margin: 0;
+}
+
+.horizontal-box li {
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
 
 ul.animate-links li a:hover {
   padding-left: 2px;
@@ -1535,13 +1577,20 @@ ol.list-ordered.style-5 li::before {
     padding: 0 2px;
   }
 }
+.text-box {
+  background: rgba(255, 255, 255, 0.7); /* semi-transparent */
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(5px); /* makes it blend nicely */
+  max-width: 600px;
+}
 
-body {
-  color: #7C7C7C;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  letter-spacing: 0;
+#about p {
+  color: #D6D6D6;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 @media (max-width: 991.98px) {
