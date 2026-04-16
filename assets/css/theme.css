@@ -1592,6 +1592,9 @@ ol.list-ordered.style-5 li::before {
   max-width: 700px;
   margin: 0 auto;
 }
+.about p {
+  margin-top: 5px;  /* pulls paragraph closer */
+}
 
 @media (max-width: 991.98px) {
   body {
