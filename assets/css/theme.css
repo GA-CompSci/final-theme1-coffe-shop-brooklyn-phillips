@@ -1345,7 +1345,6 @@ li {font-family: "Open Sans", sans-serif;
   width: 60%;
   margin: 0 auto;
   padding: 10px 20px;
-
   background: rgba(244, 151, 142, 0.6);
   backdrop-filter: blur(10px);
 border: 1px solid rgba(255,255,255,0.3);
@@ -1369,6 +1368,10 @@ border: 1px solid rgba(255,255,255,0.3);
   padding: 6px 0;
 
   border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.hero-section {
+  position: relative;
 }
 
 ul.animate-links li a:hover {
@@ -9194,9 +9197,11 @@ body.loaded:after {
   padding: 140px 0;
 }
 
+
 .section-lg.bg-image .container, .section-lg.bg-image .container-fluid {
   padding: 140px 30px;
 }
+
 
 .section-xl {
   padding: 180px 0;
