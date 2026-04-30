@@ -386,6 +386,16 @@ pre {
   position: relative;
   overflow: visible;
 }
+html {
+  scroll-behavior: smooth;
+}
+section, div[id] {
+  scroll-margin-top: 80px;
+}
+.nav-link.active {
+  font-weight: 600;
+  opacity: 1;
+}
 
 .nav.nav-custom .nav-item .nav-link:after {
   content: '';
@@ -588,6 +598,29 @@ pre {
   background: white;
   border-color: white;
   color: rgba(18, 21, 24, 0.9);
+}
+.hero-fix {
+  min-height: 100vh;           /* full screen without cutting */
+  display: flex;
+  align-items: center;         /* vertical center */
+}
+
+.hero-fix .bg-dark-06 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero-fix h1 {
+  margin-bottom: 10px;
+}
+.bg-image {
+  background-size: cover !important;
+  background-position: center center !important;
+}
+.hero-fix h6 {
+  opacity: 0.85;
+  letter-spacing: 3px;
 }
 
 .popover {
@@ -1588,6 +1621,15 @@ ol.list-ordered.style-5 li::before {
   max-width: 600px;
 }
 
+/* Coffee drinks */
+.hot-drink i {
+  color: #c8a97e;
+}
+
+/* Hot chocolate */
+.chocolate i {
+  color: #a0522d;
+}
 #about p {
   color: #D6D6D6;
   font-size: 16px;
